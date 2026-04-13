@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Grotesk";
+    src: url("/src/assets/Fonts/FoundersGrotesk-Semibold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Neue";
+    src: url("/src/assets/Fonts/NeueMontreal-Regular.ttf") format("truetype");
+}
