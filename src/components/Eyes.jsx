@@ -18,8 +18,13 @@ const Eyes = () => {
     };
   }, []);
   return (
-    <div className="eyes w-full h-screen overflow-hidden">
-      <div className="relative w-full h-full bg-cover bg-center b bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg')]">
+    <div className="eyes w-full h-screen overflow-hidden my-10">
+      <div
+        data-scroll
+        data-scroll-section
+        data-scroll-speed="-.7"
+        className="relative w-full h-full bg-cover bg-center b bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg')]"
+      >
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex gap-10">
           <div className=" flex items-center justify-center w-[15vw] h-[15vw] bg-zinc-50 rounded-full">
             <div className="px-8 py-4 fixed z-[99] font-black font-[Neue] tracking-widest uppercase text-4xl">
